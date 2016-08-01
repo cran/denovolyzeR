@@ -1,7 +1,7 @@
 Package: denovolyzeR
 Title: Statistical Analyses of De Novo Genetic Variants
-Version: 0.1.1
-Date: 2016-06-18
+Version: 0.2.0
+Date: 2016-08-01
 Authors@R: c(
     person("James","Ware",email="j.ware@imperial.ac.uk",role=c("aut","cre")),
     person("Jason","Homsy",role="ctb"),
@@ -16,7 +16,7 @@ Description: An integrated toolset for the analysis of de novo (sporadic)
     to implement these analyses for the interpretation of de novo variation in human
     disease.
 Depends: R (>= 3.1.0)
-Imports: dplyr (>= 0.3), reshape (>= 0.8)
+Imports: dplyr (>= 0.3), reshape2 (>= 1.4)
 License: GPL-3
 LazyData: true
 Suggests: knitr, rmarkdown
@@ -24,11 +24,11 @@ VignetteBuilder: knitr
 URL: http://denovolyzeR.org
 BugReports: http://github.com/jamesware/denovolyzeR/issues
 RoxygenNote: 5.0.1
-Packaged: 2016-06-18 02:03:35 UTC; jamesware
+NeedsCompilation: no
+Packaged: 2016-08-01 12:18:10 UTC; jamesware
 Author: James Ware [aut, cre],
   Jason Homsy [ctb],
   Kaitlin Samocha [ctb]
 Maintainer: James Ware <j.ware@imperial.ac.uk>
-NeedsCompilation: no
 Repository: CRAN
-Date/Publication: 2016-06-18 15:01:35
+Date/Publication: 2016-08-01 14:55:41

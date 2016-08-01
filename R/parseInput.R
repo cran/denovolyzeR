@@ -66,7 +66,7 @@ parseInput <- function(genes=genes,
   # capitalisation - not implemented
   # as.character
   classes <- as.character(classes)
-  # recognised
+  # recognised, by comparison with classes in probTable (which could be user-specified...)
   validClasses <- unique(probTable$class)
   noMatchClasses <- classes[!classes %in% validClasses] %>% unique
   if(length(noMatchClasses)>0){
